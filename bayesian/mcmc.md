@@ -1,4 +1,4 @@
-## Markov Chain - Monte Carlo REview
+## Markov Chain - Monte Carlo Review
 
 **Monte Carlo simulations** 
 

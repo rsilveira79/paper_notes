@@ -1,64 +1,34 @@
-# Things to understand/learn
-- Mediation
-- Backdoor criteria
-- Frontdoor criteria
+## 📝 Important Papers to Review 
 
----
+### 1 - Causal Inference in Stats: An overview (Pearl 2009)
+[Pearl R350](https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf)
 
-## 1 - Causal Inference in Stats: An overview (Pearl 2009)
-__Link__: [Pearl R350](https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf)
+### 2 - An Introduction to Causal Inference (Pearl 2010)
+[Pearl R354](https://ftp.cs.ucla.edu/pub/stat_ser/r354-corrected-reprint.pdf)
 
-Answers to 3 types of queries:
-1. 
+### 3 - Blessings of Multiple Causes (Pearl 2009)
+[Wang 2018](https://arxiv.org/pdf/1805.06826.pdf)
 
 
+## 🔎 Topics to Review
+1. Propensity Score Matching
+2. Inverse Propensity Weighting
+3. Mediation
+4. Backdoor criteria
+5. Frontdoor criteria
 
 
-## 2 - An Introduction to Causal Inference (Pearl 2010)
-__Link__: [Pearl R354](https://ftp.cs.ucla.edu/pub/stat_ser/r354-corrected-reprint.pdf)
+## 📒 Sources
+1. [Causal Inference and Propensity Score Methods](https://florianwilhelm.info/2017/04/causal_inference_propensity_score/)  
+2. [The intuition behind inverse probability weighting in causal inference](http://www.rebeccabarter.com/blog/2017-07-05-ip-weighting/)
+3. [Miguel Hernan Book - Part II - Chapter 15](https://cdn1.sph.harvard.edu/wp-content/uploads/sites/1268/1268/20/hernanrobins_v2.17.21.pdf)
 
+## 💻 Libs/Code
+1. [pymatch](https://github.com/benmiroglio/pymatch)  
 
-
-
-
-## 3 - Blessings of Multiple Causes (Pearl 2009)
-__Link__: [Wang 2018](https://arxiv.org/pdf/1805.06826.pdf)
-
-
-
-
-
-
-
-
-
-
-
------ 
-## Appendix 
-Examples of Markdown
-
-1. Equation
-
-$$ x_{i} = y_{i} + \alpha_{i}  + \Theta_{i} + \log_b $$
-
-2. Code  
-
-~~~python
-import pandas as pd
-import numpy as np
-
-foo = [1,2,3]
-bar = {}
-text = "Python is cool!"
-Title = "Python is the best
-
-vect_1 = torch.ones(20,5)
-vect_2 = torch.ones(20,5)
-
-vec_sum = vect_1 + vect_2
-~~~
-
+## 💡 Ideas for Practical Implementation
+1. Use Inverse Propensity Weighting to predict score for hired/not hired based on covariate features  
+2. Use the Deconfounder to predict revenue (salary) given one candidate skills
 
 
 

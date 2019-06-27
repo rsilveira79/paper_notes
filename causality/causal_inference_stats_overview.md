@@ -21,14 +21,17 @@
 ## 📒 Sources
 1. [Causal Inference and Propensity Score Methods](https://florianwilhelm.info/2017/04/causal_inference_propensity_score/)  
 2. [The intuition behind inverse probability weighting in causal inference](http://www.rebeccabarter.com/blog/2017-07-05-ip-weighting/)
-3. [Miguel Hernan Book - Part II - Chapter 15](https://cdn1.sph.harvard.edu/wp-content/uploads/sites/1268/1268/20/hernanrobins_v2.17.21.pdf)
+3. [Miguel Hernan Book - Part II - Chapter 15](https://cdn1.sph.harvard.edu/wp-content/uploads/sites/1268/1268/20/hernanrobins_v2.17.21.pdf)  
+4. [A Primer on Inverse Probability of Treatment Weighting and Marginal Structural Models](https://static1.squarespace.com/static/58daa11a6b8f5bca8f8b62fa/t/59cf555532601e11ca58c5a4/1506760022523/Thoemmes.Ong.2016.pdf)  
 
 ## 💻 Libs/Code
 1. [pymatch](https://github.com/benmiroglio/pymatch)  
+2. [causalinference](https://github.com/laurencium/causalinference)  
 
 ## 💡 Ideas for Practical Implementation
 1. Use Inverse Propensity Weighting to predict score for hired/not hired based on covariate features  
-2. Use the Deconfounder to predict revenue (salary) given one candidate skills
+2. Use the Deconfounder to predict revenue (salary) given one candidate skills  
+3. Measure how the introduction of a new features causes engagement in using the app (by measuring use time)  
 
 
 
